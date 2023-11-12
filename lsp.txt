@@ -1,0 +1,35 @@
+restorant di sania atas nama PW_KasirRestoran_Syavira
+futsal
+parkir
+pendaftaran di ss atas nama ramafikhaifa
+paketwisata di ss atas nama noval
+pemesanan hotel di ss atas nama iqbal
+poliklnik di ss atas nama haikal
+
+*jangan lupa tambahkan min di totalharga
+kalo stok habis beri pesan stok habis liat di perdana resto
+
+*usahain jangan make stok doang namanya 
+kalo kamar stok kamar per_hari
+kalo paket wisata stok
+
+
+
+kalo paket wisata bikin 
+
+tabel tujuan
+id_tujuan  | nama tujuan             | harga_perorang      |stok kursi_bus
+1          | jakarta - bali          | 250000     	   |30
+2          | semarang - papua        | 350000     	   |20
+
+tabel pemesan
+inner join tb_tujuan => ngambil nama dan harga
+id_pemesan | id_tujuan|  nama_kepala_keluarga   |  notelp    | jumlah_orang | totalharga                   | bayar    |kembali
+1          |   2      | kandiaz                 | 0856271826 | 12           | (hargaperorang*jumlah_orang) | 5000000  |1000
+
+make calc kaya perdana jika memasukan qty(jumlah_orang) dikali harga pertujuan
+
+kalo mau ada history buat tabel
+history
+
+
